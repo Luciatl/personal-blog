@@ -1,8 +1,9 @@
 +++
 date = '2024-11-07T12:45:49+08:00'
-draft = true
+draft = false
 title = '播客存档 | [GPT Summary]《Grad Lounge》 Ep. 75'
 tags = ['Podcast', 'Bookmark', 'Academic', 'Career','AI-Generated-Content']
+categories = ['Personal Growth']
 +++
 
 Source: [📻 Grad Lounge Ep. 75. 从小镇做题家到剑桥博士生：如何实现学术 & 搞钱两不误](https://www.xiaoyuzhoufm.com/episode/67234f8c1fa26e65ac93f2ea)

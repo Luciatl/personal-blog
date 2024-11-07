@@ -33,11 +33,11 @@ params:
 menu:
   main:
     - identifier: categories
-      name: categories
+      name: category
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: tag
       url: /tags/
       weight: 20
     - identifier: archives
