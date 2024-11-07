@@ -30,7 +30,7 @@ params:
       url: "https://github.com/Luciatl"
 
   customCSS:
-    - css/custom.css
+    - /assets/css/custom.css
 
 # 菜单设置
 menu:
