@@ -29,6 +29,9 @@ params:
     - name: github
       url: "https://github.com/Luciatl"
 
+  customCSS:
+    - css/custom.css
+
 # 菜单设置
 menu:
   main:
