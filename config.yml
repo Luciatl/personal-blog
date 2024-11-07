@@ -1,0 +1,46 @@
+baseURL: "https://Luciatl.github.io/blog/"
+title: "Lucia's Blog"
+theme: "PaperMod"
+
+# 语言设置
+languageCode: "zh-cn"
+defaultContentLanguage: "zh-cn"
+
+# 基础设置
+paginate: 10
+summaryLength: 70
+
+# 主题设置
+params:
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowPostNavLinks: true
+
+  homeInfoParams:
+    Title: "Lucia"
+    Content: "Lucia's Blog"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/Luciatl"
+
+# 菜单设置
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 30
