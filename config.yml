@@ -1,5 +1,5 @@
-baseURL: "https://Luciatl.github.io/personal-blog/"
-title: "Lucia's Blog"
+baseURL: "https://tianalei.github.io/personal-blog/"
+title: "Tian's Blog"
 theme: "PaperMod"
 
 # 语言设置
@@ -22,12 +22,14 @@ params:
   ShowPostNavLinks: true
 
   homeInfoParams:
-    Title: "Lucia"
-    Content: "Lucia's Blog"
+    Title: "Tian"
+    Content: "Tian's Blog"
 
   socialIcons:
     - name: github
-      url: "https://github.com/Luciatl"
+      url: "https://github.com/tianalei"
+  mainSections:
+    - posts
 
 
 # 菜单设置
@@ -45,3 +47,17 @@ menu:
       name: archives
       url: /archives/
       weight: 30
+    - identifier: gadgets
+      name: gadgets
+      url: /gadgets/
+      weight: 40
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 50
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
